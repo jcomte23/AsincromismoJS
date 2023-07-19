@@ -55,5 +55,8 @@
   "bugs": {
     "url": "https://github.com/jcomte23/AsincromismoJS/issues"
   },
-  "homepage": "https://github.com/jcomte23/AsincromismoJS#readme"
+  "homepage": "https://github.com/jcomte23/AsincromismoJS#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
