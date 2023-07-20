@@ -4,7 +4,8 @@
   "description": "proyecto para entender a profundidad el asincronismo en js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "callback": "node src/callback/llamadoAPI.js"
   },
   "repository": {
     "type": "git",

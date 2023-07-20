@@ -1,4 +1,3 @@
-//variable para establecer conexion con la API
 const XMLHttpRequest = require ('xmlhttprequest').XMLHttpRequest;
 const endPoindAPI="https://api.escuelajs.co/api/v1"
 
@@ -6,7 +5,7 @@ const endPoindAPI="https://api.escuelajs.co/api/v1"
 function llamadoAPI(urlAPI,callback) {
     let xhttp=new XMLHttpRequest()
     xhttp.open('GET',urlAPI,true)
-    xhttp.onReadyStateChange = function (event) {
+    xhttp.onreadystatechange = function (event) {
         if (xhttp.readyState===4) {
             if (xhttp.status===200) {
                 callback(null,JSON.parse(xhttp.responseText))
