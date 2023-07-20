@@ -58,6 +58,8 @@
   },
   "homepage": "https://github.com/jcomte23/AsincromismoJS#readme",
   "dependencies": {
+    "node-fetch": "^3.3.1",
     "xmlhttprequest": "^1.8.0"
-  }
+  },
+  "type": "module"
 }
